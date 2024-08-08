@@ -432,28 +432,28 @@ margin-bottom: 32px;
     background-image: url("trainer1.png");
     background-size: cover;
     height: 272px;
-    
+    background-position: center;
 }
 
 .img2 {
     background-image: url("trainer2.png");
     background-size: cover;
     height: 272px;
-    
+    background-position: center;
 }
 
 .img3 {
     background-image: url("trainer3.png");
     background-size: cover;
     height: 272px;
-    
+    background-position: center;
 }
 
 .img4 {
     background-image: url("trainer4.png");
     background-size: cover;
     height: 272px;
-   
+    background-position: center;
 }
 
 .img5 {
