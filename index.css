@@ -429,42 +429,42 @@ margin-bottom: 32px;
 }
 
 .img1 {
-    background-image: url(./images/trainer1.png);
+    background-image: url("./images/trainer1.png");
     background-size: cover;
     height: 272px;
     background-position: center;
 }
 
 .img2 {
-    background-image: url(./images/trainer2.png);
+    background-image: url("./images/trainer2.png");
     background-size: cover;
     height: 272px;
     background-position: center;
 }
 
 .img3 {
-    background-image: url(./images/trainer3.png);
+    background-image: url("./images/trainer3.png");
     background-size: cover;
     height: 272px;
     background-position: center;
 }
 
 .img4 {
-    background-image: url(./images/trainer4.png);
+    background-image: url("./images/trainer4.png");
     background-size: cover;
     height: 272px;
     background-position: center;
 }
 
 .img5 {
-    background-image: url(./images/trainer5.png);
+    background-image: url("./images/trainer5.png");
     background-size: cover;
     height: 272px;
     background-position: center;
 }
 
 .img6 {
-    background-image: url(./images/trainer6.png);
+    background-image: url("./images/trainer6.png");
     background-size: cover;
     height: 272px;
     background-position: center;
