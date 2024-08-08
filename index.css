@@ -560,11 +560,15 @@ font-weight: 400;
     .habit-details{
     
         flex-direction: column;
+        max-width: 287px;
+        margin: 0 auto;
     }
     .Running{
         justify-content: normal;
         flex-direction: column;
         margin-top: 60px;
+        gap: 31px;
+        padding: 0 50px;
     }
     .table{
         flex-direction: column;
@@ -585,6 +589,25 @@ font-weight: 400;
     .members{
         grid-template-columns: repeat(1,1fr);
     }
+    .img3{
+        order: 3;
+    }
+    .img5{
+        order: 2;
+    }
+    .img2{
+        order: 1;
+
+    }
+    .img6{
+        order: 6;
+    }
+    .img1{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
     .final-1{
         flex-direction: column;
     }
@@ -604,5 +627,11 @@ font-weight: 400;
 .workout{
     right: 0;
     top: 48px;
+}
+.wfull{
+    width: 100%;
+}
+.our-team{
+    margin-top: 66px;
 }
 }
