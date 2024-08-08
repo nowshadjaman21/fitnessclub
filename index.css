@@ -275,11 +275,13 @@ body {
     margin: 0 auto;
     margin-top: 88px;
     margin-bottom: 88px;
+    border-radius: 10px;
     
 
 }
 .calc-body{
     background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
 }
 
 .calc-title{
@@ -637,5 +639,8 @@ font-weight: 400;
 }
 .our-team{
     margin-top: 66px;
+}
+.calc-body{
+    border-radius: 10px;
 }
 }
