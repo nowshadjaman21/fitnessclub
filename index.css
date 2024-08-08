@@ -572,6 +572,10 @@ font-weight: 400;
     }
     .table{
         flex-direction: column;
+        gap: 30px;
+    }
+    .bmi{
+        margin-bottom: 60px;
     }
     .calc{
         max-width: 576px;
