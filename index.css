@@ -93,15 +93,16 @@ font-family: "Inter";
     color: rgb(255, 255, 255);
     font-size: 78px;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
     max-width: 520px;
+    line-height: 1.2;
 }
 
 #shape {
     font-family: 'Miama', sans-serif;
     font-weight:400;
     font-size: 120px;
-    
+    line-height: 0;
 }
    
 
@@ -602,6 +603,11 @@ font-weight: 400;
         flex-direction: column;
         align-items: center;
         margin-top: 48px;
+    }
+
+    .banner-title {
+        font-size: 55px;
+        text-align: center;
     }
     .nav-section{
         margin-bottom: 50px;
