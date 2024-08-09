@@ -281,7 +281,8 @@ body {
 }
 .calc-body{
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    
+    padding: 50px;
 }
 
 .calc-title{
@@ -641,6 +642,6 @@ font-weight: 400;
     margin-top: 66px;
 }
 .calc-body{
-    border-radius: 10px;
+   padding: 0;
 }
 }
