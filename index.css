@@ -265,6 +265,41 @@ body {
     border-radius: 18px;
 }
 
+/* instrument section */
+.fit-gym{
+    margin-top: 40px;
+}
+.gym{
+    text-align: center;
+    max-width: 661px;
+    margin: 0 auto;
+}
+.gym-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.gym-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.instruments{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    
+
+}
+.instruments img{
+    border-radius: 18px;
+    width: 100%;
+}
 /* calculator */
 .calc{
     padding: 49px;
@@ -579,6 +614,12 @@ font-weight: 400;
     }
     .bmi{
         margin-bottom: 60px;
+    }
+    .fit-gym{
+        margin-top: 30px;
+    }
+    .instruments{
+        grid-template-columns: repeat(1, 1fr);
     }
     .calc{
         max-width: 576px;
