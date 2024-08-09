@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,8 +9,8 @@
 
 
 body {
-    background: black
-
+    background: black;
+font-family: "Inter";
 
 }
 
@@ -76,11 +79,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.banner-positiion {
-    width: 520px;
+.banner-position {
+    max-width: 600px;
     margin: 0 auto;
+    margin-left: 0;
 
 }
 
@@ -89,13 +94,14 @@ body {
     font-size: 78px;
     font-weight: 900;
     text-align: center;
+    max-width: 520px;
 }
 
 #shape {
-    font-family: 'real_miami';
-    font-weight:100;
-    font-style: italic;
-    font-size:120px ;
+    font-family: 'Miama', sans-serif;
+    font-weight:400;
+    font-size: 120px;
+    
 }
    
 
@@ -109,6 +115,7 @@ body {
     font-weight: 400;
     margin-bottom: 28px;
     margin-top: 28px;
+    max-width: 520px;
 }
 
 .btn-1 {
