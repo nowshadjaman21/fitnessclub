@@ -88,12 +88,16 @@ body {
     color: rgb(255, 255, 255);
     font-size: 78px;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
 }
 
 #shape {
-    color: blue;
+    font-family: 'real_miami';
+    font-weight:100;
+    font-style: italic;
+    font-size:120px ;
 }
+   
 
 .banner-2 {
     position: relative;
